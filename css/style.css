@@ -40,7 +40,7 @@ html, body {
 
 /* Sto da napravam */
 #stodanapravam {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 /*Sliki */
@@ -101,8 +101,42 @@ html, body {
 
 }
 
-/* Optimizacija na Veb stranata za Drugi uredi (Медиа Queries) */
+/* Footer */
+footer
+{
+  text-align: center;
+  color:white;
+  background:black;
+  font-size: 15px;
+  font-style: italic;
+  padding-top: 5px;
+}
+
+/* Artikl 1 */
+
+article
+{
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background: url('../img/dieta.jpg');
+
+}
+
+
+/* Optimizacija na Veb stranata za Drugi uredi (Media Queries) */
 @media(max-width: 767px)  {
+
+  .custom-navigation > #links {
+    display: none;
+    padding: 0;
+  }
+
+  #close {
+    display: none;
+  }
+
   #background > #background-text h1 {
     font-size: 24px;
   }
