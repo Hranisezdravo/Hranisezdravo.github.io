@@ -125,27 +125,4 @@ article
 }
 
 
-/* Optimizacija na Veb stranata za Drugi uredi (Media Queries) */
-@media(max-width: 767px)  {
 
-  .custom-navigation > #links {
-    display: none;
-    padding: 0;
-  }
-
-  #close {
-    display: none;
-  }
-
-  #background > #background-text h1 {
-    font-size: 24px;
-  }
-
-  .sm-dev-padding {
-    padding-top: 60px;
-  }
-  #pics > #dietfood, #gym {
-   display: block;
-   width: 100%;
-  }
-}
